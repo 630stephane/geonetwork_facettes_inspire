@@ -1,0 +1,11 @@
+{
+  "th_thematiques.default": {
+    "terms": {
+      "field": "th_thematiques.default",
+      "size": 100,
+      "order": {
+        "_key": "asc"
+      }
+    }
+  }}
+  
