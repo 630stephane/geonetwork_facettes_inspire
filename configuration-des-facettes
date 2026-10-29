@@ -1,11 +1,41 @@
 {
-  "th_thematiques.default": {
+  "th_httpinspireeceuropaeutheme-theme_tree.key": {
     "terms": {
-      "field": "th_thematiques.default",
-      "size": 100,
-      "order": {
-        "_key": "asc"
+      "field": "th_httpinspireeceuropaeutheme-theme_tree.key",
+      "size": 34
+    },
+    "meta": {
+      "decorator": {
+        "type": "icon",
+        "prefix": "fa fa-2x pull-left gn-icon iti-",
+        "expression": "http://inspire.ec.europa.eu/theme/(.*)"
+      },
+      "orderByTranslation": true
+    }
+  },
+  "cl_topic.key": {
+    "terms": {
+      "field": "cl_topic.key",
+      "size": 20
+    },
+    "meta": {
+      "decorator": {
+        "type": "icon",
+        "prefix": "fa fa-2x pull-left gn-icon-"
+      },
+      "orderByTranslation": true
+    }
+  },
+  "resourceType": {
+    "terms": {
+      "field": "resourceType",
+      "size": 10
+    },
+    "meta": {
+      "decorator": {
+        "type": "icon",
+        "prefix": "fa fa-2x pull-left gn-icon-"
       }
     }
-  }}
-  
+  }
+}
